@@ -30,10 +30,8 @@
  * increase
  * degrees
  * Degrees List
- 
-
-
  **_If you want to understand what's going on_**
+ 
  Imagine your lists only have two pairs of values on them. This is what happens:
     1. Set counter to 0
     2. Start the forever loop
