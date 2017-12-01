@@ -24,34 +24,28 @@
  * Pick the counter-th item from Increase List and put it in the increase variable. Do the same for the Degrees List and degrees variable.
   ![](assets/helping3.png)
 
- * counter
- * Increase List
- * steps
- * increase
- * degrees
- * Degrees List
  **_If you want to understand what's going on_**
- 
+
  Imagine your lists only have two pairs of values on them. This is what happens:
-    1. Set counter to 0
-    2. Start the forever loop
-    3. Check if counter (0) is the same as the length of Increase List (2). It isn’t
-    4. Change counter by 1. Now counter = 1
-    5. Set steps to 0
-    6. Get the get the item at position counter (1) in the Increase List and put it in increase 
-    7. Get the get the item at position counter (1) in the Degrees List and put it in degrees 
-    8. Do all the stuff related to drawing the patterns
-    9. Restart the forever loop
-    10. Check if counter (1) is the same as the length of Increase List (2). It isn’t
-    11. Change counter by 2. Now counter = 2
-    12. Set steps to 0
-    13. Get the get the item at position counter (2) in the Increase List and put it in increase 
-    14. Get the get the item at position counter (2) in the Degrees List and put it in degrees 
-    15. Do all the stuff related to drawing the patterns
-    16. Restart the forever loop
-    17. Check if counter (2) is the same as the length of the Increase List (2). It is!
-    18. Set counter to 0
-    19. Continue from **step 4** of this list, in a never-ending loop!
+        1. Set counter to 0
+        2. Start the forever loop
+        3. Check if counter (0) is the same as the length of Increase List (2). It isn’t
+        4. Change counter by 1. Now counter = 1
+        5. Set steps to 0
+        6. Get the get the item at position counter (1) in the Increase List and put it in increase 
+        7. Get the get the item at position counter (1) in the Degrees List and put it in degrees 
+        8. Do all the stuff related to drawing the patterns
+        9. Restart the forever loop
+        10. Check if counter (1) is the same as the length of Increase List (2). It isn’t
+        11. Change counter by 2. Now counter = 2
+        12. Set steps to 0
+        13. Get the get the item at position counter (2) in the Increase List and put it in increase 
+        14. Get the get the item at position counter (2) in the Degrees List and put it in degrees 
+        15. Do all the stuff related to drawing the patterns
+        16. Restart the forever loop
+        17. Check if counter (2) is the same as the length of the Increase List (2). It is!
+        18. Set counter to 0
+        19. Continue from **step 4** of this list, in a never-ending loop!
 
 
 
